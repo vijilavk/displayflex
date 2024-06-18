@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242124;
+
+}
+
+
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+.search{
+    position: absolute;
+    margin-left: 50px;
+}
+.search input{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px ;
+    background-color: gray;
+   
+}
+.search input::placeholder{
+    color: white;
+    opacity: 0.4;
+}
+.search i{
+    margin-left: 40px;
+    position: relative;
+    left: 20px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  
+}
+.user{
+    /* width:100px;
+    height: 30px;
+
+    border-radius: 10px;
+    background-color:gray; */
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 2px;
+   
+    
+}
+.logo{
+    font-size: 20px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.navbar .user a{
+    img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+       
+    }
+} 
+.user a{
+    text-decoration: none;
+    color: rgb(97, 223, 160);
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    
+   
+}
+.a1 a{
+    text-decoration: none;
+    color:rgb(197, 194, 20);
+}
+.a1 span a{
+    color:pink;
+}
+/* .......first....... */
+.complete{
+    background-color:#3b3c36;
+
+    border-radius: 10px;
+    
+}
+/* .first{
+    margin-left: 30px;
+    height: 250px;
+    padding-top: 100px;
+    width: 1000px;
+    background-image:url("https://cdn.pixabay.com/photo/2019/03/12/17/18/trees-4051288_1280.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 30px;
+} */
+.first{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 250px;
+    width:1300px;
+    display: flex;
+  
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #FFC0CB, #ADD8E6);
+}
+.first img{
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 200px;
+}
+.first p{
+    margin: 20px;
+}
+.first h2{
+    margin: 20px;
+
+}
+.content span{
+    color: rgb(250, 7, 88);
+}
+.content button{
+    margin-left: 60px;
+    border-radius: 30px;
+    border:none;
+    padding: 10px;
+    background-color: rgb(233, 22, 92);
+
+}
+.cards{
+    background-color:black ;
+    margin: 30px;
+
+}
+.cards a{
+    color:white;
+}
+.cards span{
+    color: #c7237d;
+}
+.card1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1 img{
+    border-radius: 20px;
+    width:250px;
+}
+.star{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 250px;
+}
+.para p{
+    color: wheat;
+
+}
+.para h4{
+    color: #ADD8E6;
+}
+.download p{
+    color: wheat;
+}
+.card2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card2 img{
+    border-radius: 20px;
+    width:250px;
+}
+.cards button{
+    margin-left: 500px;
+    background-color: rgb(235, 58, 87);
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+}
+.table{
+    background-color:black ;
+    margin: 30px;
+
+}
+.table a{
+    color: white;
+}
+.table span{
+    color: #c7237d;
+}
+.row1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+.col2,.col3,.col4,.col5 p{
+    color: #FFC0CB;
+}
+.col2,.col3,.col4,.col5 h4{
+    color: #FFC0CB;
+}
+.row1 button{
+    width: 150px;
+    background-color: #3b3c36;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+    
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+.row2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.row3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.row2 button{
+    width: 150px;
+    background-color: #3b3c36;
+    border-radius: 10px;
+    height: 50px;
+    border: 2px solid palevioletred;
+    color: #c7237d;
+}
+.row3 button{
+    width: 150px;
+    background-color: #3b3c36;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+.b1{
+    background-color: #c7237d;
+    border:none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
